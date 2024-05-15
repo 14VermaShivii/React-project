@@ -1,3 +1,5 @@
+import { faLandmark } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from "react-router-dom"
 export const Header =() =>{
     return   <div className="container-fluid ">
@@ -6,7 +8,7 @@ export const Header =() =>{
             <div className="home">
 
                 <div className="text-primary">
-                    <h2> <i className="fa-solid fa-landmark text-primary"></i> Easy Cash</h2>
+                    <h2> <FontAwesomeIcon icon={faLandmark} /> Easy Cash</h2>
 
                 </div>
             </div>
@@ -22,13 +24,14 @@ export const Header =() =>{
                     <div className="collapse Navbar-collapse" id="NavbarSupportedContent">
                         <ul className="Navbar-Nav ms-auto mb-2 mb-lg-0">
                             <li className="Nav-item">
-                                <NavLink className="Nav-link active" aria-current="page" to="index.html"><b>Home</b></NavLink>
+                                <NavLink className="Nav-link active" aria-current="page" 
+                                to="/">Home</NavLink>
                             </li>
                             <li className="Nav-item">
-                                <NavLink className="Nav-link" to="Aboutus.html"><b>About us</b></NavLink>
+                                <NavLink className="Nav-link" to="/about"><b>About us</b></NavLink>
                             </li>
                             <li className="Nav-item">
-                                <NavLink className="Nav-link" to="contactus.html"><b>Contact us</b></NavLink>
+                                <NavLink className="Nav-link" to="/contact"><b>Contact us</b></NavLink>
                             </li>
                             <li className="Nav-item">
                                 <NavLink className="btn btn-primary" to="contactus.html"><b>Get started</b></NavLink>

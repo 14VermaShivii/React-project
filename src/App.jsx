@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import {BrowserRouter,Routes,Route}from 'react-router-dom';
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// import {faPhone } from "@fortawesome/fontawesome-free"
+// import { FontAwesomeIcon } from "@fortawesome/fontawesome-free"
 import './App.css'
 import { Home } from './Component/Pages/Home';
 import { About } from './Component/Pages/About';
@@ -14,16 +16,16 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path ="/" element={<Home />} />
-      <Route path ="About" element={<About />} />
-      <Route path ="Contact" element={<Contact/>} />
-          </Routes>
-          <Footer />
-    </BrowserRouter>
-     </>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="About" element={<About />} />
+          <Route path="Contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   )
 }
 

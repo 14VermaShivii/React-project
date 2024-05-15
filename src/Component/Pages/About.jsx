@@ -1,4 +1,7 @@
+import { faGreaterThan, faThumbsUp, faTrophy, faWandMagic } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from "react-router-dom"
+
 export const About = () => {
     return <>
         <div className="container-fluid p-0">
@@ -10,8 +13,12 @@ export const About = () => {
                             <div className="container">
                                 <div className="breadcrumbs-sub">
                                     <ul className="breadcrumbs-custom-path">
-                                        <li className="right-side propClone"><NavLink href="index.html" className="editContent">Home <span
-                                            className="fa fa-angle-right" aria-hidden="true"></span></NavLink>
+                                        <li className="right-side propClone"><NavLink to="/" 
+                                        className="editContent">Home <span>
+                                            <FontAwesomeIcon icon={faGreaterThan} /> 
+                                            
+                                            </span>
+                                            </NavLink>
                                             <p></p>
                                         </li>
                                         <li className="active editContent">About</li>
@@ -125,7 +132,7 @@ export const About = () => {
 
                                             <div className="bank-net">
                                                 <div className="icon-span">
-                                                    <span className="fa fa-thumbs-up text-primary"></span>
+                                                    <span className="FontAwesomeIcon"><FontAwesomeIcon icon={faThumbsUp} /></span>
                                                 </div>
                                                 <div className="bank-bank text-left">
                                                     <h4>Projects Done</h4>
@@ -135,7 +142,7 @@ export const About = () => {
                                             </div>
                                             <div className="bank-net">
                                                 <div className="icon-span ">
-                                                    <span className="fa fa-magic text-primary"></span>
+                                                    <span className="FontAwesomeIcon"><FontAwesomeIcon icon={faWandMagic} /></span>
                                                 </div>
                                                 <div className="bank-bank text-left">
                                                     <h4>Investments</h4>
@@ -145,7 +152,7 @@ export const About = () => {
                                             </div>
                                             <div className="bank-net">
                                                 <div className="icon-span ">
-                                                    <span className="fa fa-trophy"></span>
+                                                    <span className=" FontAwesomeIcon"><FontAwesomeIcon icon={faTrophy} /></span>
                                                 </div>
                                                 <div className="bank-bank text-left">
                                                     <h4>Awards Won</h4>

@@ -1,3 +1,5 @@
+import { faClockRotateLeft, faDisplay, faHandshake, faMobileScreenButton, faMoneyBill1Wave, faShieldHalved, faThumbsUp } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from "react-router-dom"
 export const Home = () => {
     return <>
@@ -9,10 +11,13 @@ export const Home = () => {
                 <div className="banner-info-bg mr-auto">
                     <h2>Connecting all your
                         banking needs </h2>
-                    <p>Conse ctetur Lorem ipsum dolor sit amet adipi sicing elit. Quae, velit recu sandae eum
+                    <p>Conse ctetur Lorem ipsum dolor sit amet adipi sicing elit. Quae, velit recu 
+                        sandae eum
                         necessi
-                        tatibus bland itiis adipisci Mollitia placeat modi explicabo voluptatum corporis.</p>
-                    <NavLink className="btn btn-theme2 mt-md-5 mt-4 bg-primary" href="index.html">Find out more</NavLink>
+                        tatibus bland itiis adipisci Mollitia placeat modi explicabo voluptatum 
+                        corporis.</p>
+                    <NavLink className="btn btn-theme2 mt-md-5 mt-4 bg-primary" 
+                    href="index.html">Find out more</NavLink>
 
                     
                 </div>
@@ -38,10 +43,10 @@ export const Home = () => {
     <div className="row py-5">
 
         <div className="col-md-3">
-            <div className="computer">
+            <div className="computer FontAwesomeIcon">
                 <div className="grids-1 grids-effect">
                 
-                <i className="fa-regular fa-display text-primary"></i>
+                <FontAwesomeIcon icon={faDisplay} />
             </div>
             </div>
             <div className="call-grid-w3 d-grid">
@@ -56,8 +61,8 @@ export const Home = () => {
 
         </div>
         <div className="col-md-3">
-            <div className="thumb">
-                <i className="fa-regular fa-thumbs-up text-primary"></i>
+            <div className="thumb FontAwesomeIcon">
+            <FontAwesomeIcon icon={faThumbsUp} />
             </div>
 
             <h5>Business Plan</h5>
@@ -70,8 +75,8 @@ export const Home = () => {
 
         </div>
         <div className="col-md-3">
-            <div className="mobile">
-                <i className="fa-solid fa-mobile-screen-button text-primary"></i>
+            <div className="mobile FontAwesomeIcon">
+            <FontAwesomeIcon icon={faMobileScreenButton} />
             </div>
             <h5>Mobile Bank</h5>
             Vivamus a ligula quam.Duis<br />
@@ -83,8 +88,8 @@ export const Home = () => {
 
         </div>
         <div className="col-md-3">
-            <div className="money">
-                <i className="fa-regular fa-money-bill-1 text-primary"></i>
+            <div className="money FontAwesomeIcon">
+            <FontAwesomeIcon icon={faMoneyBill1Wave} />
             </div>
             <h5>Online Deposite</h5>
             Vivamus a ligula quam. Duis<br />
@@ -158,8 +163,8 @@ export const Home = () => {
         <div className="shadow p-3 mb-5 bg-body rounded">
             <div className="card">
                 <div className="card-body">
-                    <div className="shake">
-                        <i className="fa-regular fa-handshake text-primary"></i>
+                    <div className="shake FontAwesomeIcon">
+                    <FontAwesomeIcon icon={faHandshake} />
                     </div>
                     <p className="card-text"></p>
                 </div>
@@ -174,8 +179,8 @@ export const Home = () => {
         <div className="shadow p-3 mb-5 bg-body rounded">
             <div className="card">
                 <div className="card-body">
-                    <div className="shake">
-                        <i className="fa-solid fa-shield-halved text-primary"></i>
+                    <div className="shake FontAwesomeIcon">
+                    <FontAwesomeIcon icon={faShieldHalved} />
                     </div>
                     <p className="card-text"></p>
                 </div>
@@ -190,8 +195,8 @@ export const Home = () => {
         <div className="shadow p-3 mb-5 bg-body rounded">
             <div className="card">
                 <div className="card-body">
-                    <div className="shake">
-                        <i className="fa-solid fa-clock-rotate-left text-primary"></i>
+                    <div className="shake FontAwesomeIcon">
+                    <FontAwesomeIcon icon={faClockRotateLeft} />
                     </div>
                     <p className="card-text"></p>
                 </div>

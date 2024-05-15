@@ -19,6 +19,8 @@
 .banner{
 background-image: url("https://p.w3layouts.com/demos_new/template_demo/29-04-2020/easy_cash-liberty-demo_Free/1955832306/web/assets/images/1.jpg");
 height: calc(100vh - 80px);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .banner{
   color: #fff;
@@ -760,4 +762,7 @@ input, textarea {
 .text-color{
   color: black;
 
+}
+.FontAwesomeIcon{
+  color: #0354cc;
 }
