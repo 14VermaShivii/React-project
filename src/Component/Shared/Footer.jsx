@@ -10,7 +10,7 @@ export const Footer = () => {
                     <div className="col-md-3 ">
 
                         <div className="p">
-                            <h4> <FontAwesomeIcon icon={faLandmark} /> Easy Cash</h4>
+                            <h4> <FontAwesomeIcon icon={faLandmark} />Digital Banking</h4>
                         </div>
                         <p className="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe qui repellat nam
                             vero

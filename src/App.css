@@ -21,6 +21,7 @@ background-image: url("https://p.w3layouts.com/demos_new/template_demo/29-04-202
 height: calc(100vh - 80px);
 background-repeat: no-repeat;
 background-size: cover;
+align-items:center;
 }
 .banner{
   color: #fff;
@@ -765,4 +766,10 @@ input, textarea {
 }
 .FontAwesomeIcon{
   color: #0354cc;
+}
+.center{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 1%;
 }

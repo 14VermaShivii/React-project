@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom"
 export const Home = () => {
     return <>
     <div className="container-fluid p-0">
-    <div className="col-md-12">
+    <div className="col-md-12 ">
         <div className="banner">
             <div className="container">
 
-                <div className="banner-info-bg mr-auto">
+                <div className="banner-info-bg mr-auto ">
                     <h2>Connecting all your
                         banking needs </h2>
                     <p>Conse ctetur Lorem ipsum dolor sit amet adipi sicing elit. Quae, velit recu 
@@ -142,7 +142,7 @@ export const Home = () => {
                     <p className="para">Fugit tempora dolor dolore recusandae aut at cum autem esse neque. Consequuntur dolor sequi nulla corrupti blanditiis similique</p>
                 </div>
                     <div className=" history-info ">
-                        <iframe src="https://player.vimeo.com/video/131697637" width="800" height="360"  allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                        <iframe src="https://player.vimeo.com/video/131697637" width="800" height="360"  allow="autoplay; fullscreen"></iframe>
                         </div>
                       </div>
                 </div>
